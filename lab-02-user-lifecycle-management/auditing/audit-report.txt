@@ -1,7 +1,42 @@
-abbey      enguser2  enguser9  ituser1  makuo            nosa      productdesigner_user1  sales_user3
-alice      enguser3  finuser1  ituser2  marketing_user1  opsuser1  productdesigner_user2  sales_user4
-bob        enguser4  finuser2  ituser3  marketing_user2  opsuser2  productdesigner_user3  sales_user5
-collins    enguser5  finuser3  ituser4  marketing_user3  opsuser3  productdesigner_user4  sshuser
-damian     enguser6  finuser4  ituser5  marketing_user4  opsuser4  productdesigner_user5  stanley
-enguser1   enguser7  finuser5  lekan    marketing_user5  opsuser5  sales_user1            uche
-enguser10  enguser8  fola      lukman   mikeazure        peace     sales_user2            zainab
+User Audit Report
+-----------------
+    ituser1
+ituser2
+ituser3
+ituser4
+ituser5
+enguser1
+enguser2
+enguser3
+enguser4
+enguser5
+enguser6
+enguser7
+enguser8
+enguser9
+enguser10
+finuser1
+finuser2
+finuser3
+finuser4
+finuser5
+opsuser1
+opsuser2
+opsuser3
+opsuser4
+opsuser5
+sales_user1
+sales_user2
+sales_user3
+marketing_user1
+marketing_user2
+marketing_user3
+productdesigner_user1
+productdesigner_user2
+productdesigner_user3
+sales_user4
+sales_user5
+marketing_user4
+marketing_user5
+productdesigner_user4
+productdesigner_user5

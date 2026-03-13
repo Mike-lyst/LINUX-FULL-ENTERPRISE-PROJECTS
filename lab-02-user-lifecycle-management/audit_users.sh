@@ -14,8 +14,6 @@ lastlog | grep -v "Never logged in" >> $LOG
 echo "" >> $LOG
 echo "Users with UID >= 1000:" >> $LOG
 awk -F: '$3 >= 1000 {print $1}' /etc/passwd >> $LOG
-echo "User Audit Report" > audit-report.txt
-echo "-----------------" >> audit-report.txt
-cut -d: -f1 /etc/passwd | grep user >> audit-report.txt
+
 echo "Audit Completed" >> $LOG
 echo "=========================" >> $LOG
