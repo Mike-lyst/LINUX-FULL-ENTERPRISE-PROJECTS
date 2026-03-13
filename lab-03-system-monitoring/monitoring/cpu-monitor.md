@@ -5,7 +5,6 @@
 ```bash
 top                 # Real-time CPU and process monitoring
 htop                # Interactive process monitor
-mpstat -P ALL 1     # CPU usage per core
 yes > /dev/null &   # Simulate CPU stress
 pkill yes           # Stop stress process
 ```

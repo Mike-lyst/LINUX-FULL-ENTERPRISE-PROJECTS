@@ -1,4 +1,7 @@
-Key Steps:
+### Memory monitoring 
+**Purpose**  Monitor RAM and swap usage, detect memory issues.
+
+*Key Steps*:
 
 Check total, used, and free memory using free -h.
 
@@ -8,7 +11,7 @@ Observe swap usage.
 
 Track memory trends with top or htop.
 
-Enterprise Relevance:
+*Enterprise Relevance*:
 
 Detect memory leaks or abnormal usage.
 

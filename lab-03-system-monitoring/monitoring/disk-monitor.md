@@ -1,26 +1,29 @@
-Purpose: Monitor RAM and swap usage, detect memory issues.
+### Disk monitoring
 
-*Commands Used*:
-```bash
-free -h                     # Show memory and swap usage
-swapon -s                    # Check active swap
-ps aux --sort=-%mem | head -n 10  # Top memory-consuming processes
-top / htop                   # Real-time memory observation
-```
+**Purpose**: Track disk usage and I/O activity to prevent outages.
+
 *Key Steps*:
 
-Check total, used, and free memory using free -h.
+Check free disk space across partitions with df -h.
 
-Monitor top memory-consuming processes.
+Analyze disk usage per directory with du.
 
-Observe swap usage.
+Identify high I/O processes using iotop.
 
-Track memory trends with top or htop.
+Locate largest files to prevent full disks.
 
 *Enterprise Relevance*:
 
-Detect memory leaks or abnormal usage.
+Prevent outages caused by full disks.
 
-Prevent system slowdowns and crashes.
+Plan storage capacity and optimize usage.
 
-Support proactive monitoring in enterprise environments.
+Prepare for disk-related alerts in monitoring tools.
+
+*Commands*
+````bash
+df -h                       # Disk space usage
+du -sh /var/*                # Directory size summary
+iotop                        # Real-time disk I/O monitoring
+find / -type f -exec du -h {} + | sort -rh | head -n 20  # Largest files
+````

@@ -1,4 +1,8 @@
-Key Steps:
+#### Process Monitoring
+
+**Purpose**: Observe, analyze, and manage system processes.
+
+*Key Steps*:
 
 List running processes with ps aux.
 
