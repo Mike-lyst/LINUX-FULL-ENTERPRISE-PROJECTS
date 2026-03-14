@@ -1,0 +1,13 @@
+[Unit]
+Description=Heartbeat Monitoring Service
+After=network.target
+
+[Service]
+WorkingDirectory=/mnt/c/Users/Hp/Documents/GitHub/LINUX-FULL-ENTERPRISE-PROJECTS/lab-04-systemd-services/scripts
+ExecStart=/mnt/c/Users/Hp/Documents/GitHub/LINUX-FULL-ENTERPRISE-PROJECTS/lab-04-systemd-services/scripts/heartbeat.sh
+Restart=always
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
