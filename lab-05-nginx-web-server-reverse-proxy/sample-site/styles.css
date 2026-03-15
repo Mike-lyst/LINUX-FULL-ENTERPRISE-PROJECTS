@@ -1,0 +1,53 @@
+body{
+margin:0;
+font-family: "Georgia", serif;
+background: linear-gradient(135deg,#fdfbfb,#ebedee);
+color:#333;
+text-align:center;
+}
+
+header{
+padding:60px 20px;
+}
+
+header h1{
+font-size:4rem;
+letter-spacing:10px;
+color:#c44569;
+}
+
+header p{
+font-size:1.2rem;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:25px;
+padding:40px;
+max-width:1000px;
+margin:auto;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+nano sample-site/index.html
+.card h2{
+font-size:3rem;
+color:#ff6b81;
+}
+
+footer{
+padding:40px;
+font-size:0.9rem;
+color:#777;
+}
