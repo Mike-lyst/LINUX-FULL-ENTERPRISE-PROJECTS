@@ -1,0 +1,22 @@
+==== auditd-status ====
+● auditd.service - Security Auditing Service
+     Loaded: loaded (/lib/systemd/system/auditd.service; enabled; vendor preset: enabled)
+     Active: active (running) since Mon 2026-03-16 14:26:03 UTC; 1h 4min ago
+       Docs: man:auditd(8)
+             https://github.com/linux-audit/audit-documentation
+   Main PID: 4591 (auditd)
+      Tasks: 2 (limit: 2324)
+     Memory: 1.0M
+     CGroup: /system.slice/auditd.service
+             └─4591 /sbin/auditd
+
+Mar 16 14:26:03 lab06-security augenrules[4612]: backlog_wait_time 15000
+Mar 16 14:26:03 lab06-security augenrules[4612]: enabled 1
+Mar 16 14:26:03 lab06-security augenrules[4612]: failure 1
+Mar 16 14:26:03 lab06-security augenrules[4612]: pid 4591
+Mar 16 14:26:03 lab06-security augenrules[4612]: rate_limit 0
+Mar 16 14:26:03 lab06-security augenrules[4612]: backlog_limit 8192
+Mar 16 14:26:03 lab06-security augenrules[4612]: lost 0
+Mar 16 14:26:03 lab06-security augenrules[4612]: backlog 1
+Mar 16 14:26:03 lab06-security augenrules[4612]: backlog_wait_time 0
+Mar 16 14:26:03 lab06-security systemd[1]: Started Security Auditing Service.

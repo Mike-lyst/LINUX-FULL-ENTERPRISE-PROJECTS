@@ -1,0 +1,33 @@
+
+# Vagrantfile for Lab06 – Linux Server Security & Hardening Lab
+
+Vagrant.configure("2") do |config|
+  # 1️⃣ Base Ubuntu VM
+  config.vm.box = "ubuntu/focal64"
+
+  # 2️⃣ Hostname
+  config.vm.hostname = "lab06-security"
+
+  # 3️⃣ Forward SSH only (guest port 22 → host port 2222)
+  config.vm.network "forwarded_port", guest: 22, host: 2222
+
+  # 4️⃣ Shared folder: sync project folder to VM
+  config.vm.synced_folder ".", "/vagrant", type: "virtualbox"
+
+  # 5️⃣ Provisioning: runs your setup script automatically
+  config.vm.provision "shell", path: "setup/provision.sh"
+
+  # 6️⃣ VM resources (adjust if needed)
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "2048"  # 2GB RAM
+    vb.cpus = 2         # 2 CPU cores
+  end
+
+  # 7️⃣ Post-up message
+  config.vm.post_up_message = <<-MSG
+Lab06 Server Security VM is ready!
+✅ SSH into VM: vagrant ssh
+✅ Run self-test: sudo bash /vagrant/setup/self-test.sh
+Screenshots and reports will be saved in /vagrant/screenshots and /vagrant/reports
+MSG
+end

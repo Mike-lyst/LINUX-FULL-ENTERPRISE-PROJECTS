@@ -1,0 +1,4 @@
+==== fail2ban-jails ====
+Status
+|- Number of jail:	1
+`- Jail list:	sshd

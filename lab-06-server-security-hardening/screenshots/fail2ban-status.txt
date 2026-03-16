@@ -1,0 +1,14 @@
+==== fail2ban-status ====
+● fail2ban.service - Fail2Ban Service
+     Loaded: loaded (/lib/systemd/system/fail2ban.service; enabled; vendor preset: enabled)
+     Active: active (running) since Mon 2026-03-16 14:26:08 UTC; 1h 3min ago
+       Docs: man:fail2ban(1)
+   Main PID: 5265 (f2b/server)
+      Tasks: 5 (limit: 2324)
+     Memory: 12.4M
+     CGroup: /system.slice/fail2ban.service
+             └─5265 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
+
+Mar 16 14:26:08 lab06-security systemd[1]: Starting Fail2Ban Service...
+Mar 16 14:26:08 lab06-security systemd[1]: Started Fail2Ban Service.
+Mar 16 14:26:09 lab06-security fail2ban-server[5265]: Server ready
