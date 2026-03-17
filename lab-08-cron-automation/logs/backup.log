@@ -1,0 +1,30 @@
+[Tue Mar 17 22:41:47 WAT 2026] Starting backup...
+[Tue Mar 17 22:41:47 WAT 2026] ERROR: Source directory does not exist!
+[Tue Mar 17 22:50:46 WAT 2026] Starting backup...
+[Tue Mar 17 22:50:46 WAT 2026] Backup successful: /mnt/c/Users/Hp/Documents/GitHub/LINUX-FULL-ENTERPRISE-PROJECTS/lab-08-cron-automation/backups/backup_2026-03-17_22-50-46.tar.gz
+[Tue Mar 17 22:50:46 WAT 2026] Backup job completed.
+----------------------------------------
+[Tue Mar 17 22:55:52 WAT 2026] Starting backup...
+[Tue Mar 17 22:55:52 WAT 2026] Backup successful: /mnt/c/Users/Hp/Documents/GitHub/LINUX-FULL-ENTERPRISE-PROJECTS/lab-08-cron-automation/backups/backup_2026-03-17_22-55-52.tar.gz
+[Tue Mar 17 22:55:52 WAT 2026] Backup job completed.
+----------------------------------------
+[Tue Mar 17 22:58:43 WAT 2026] Starting backup...
+[Tue Mar 17 22:58:43 WAT 2026] Backup successful: /mnt/c/Users/Hp/Documents/GitHub/LINUX-FULL-ENTERPRISE-PROJECTS/lab-08-cron-automation/backups/backup_2026-03-17_22-58-43.tar.gz
+[Tue Mar 17 22:58:43 WAT 2026] Backup job completed.
+----------------------------------------
+[Tue Mar 17 23:03:50 WAT 2026] Starting backup...
+[Tue Mar 17 23:03:50 WAT 2026] Backup successful: /mnt/c/Users/Hp/Documents/GitHub/LINUX-FULL-ENTERPRISE-PROJECTS/lab-08-cron-automation/backups/backup_2026-03-17_23-03-50.tar.gz
+[Tue Mar 17 23:03:50 WAT 2026] Backup job completed.
+----------------------------------------
+[Tue Mar 17 23:06:32 WAT 2026] Starting backup...
+[Tue Mar 17 23:06:32 WAT 2026] Backup successful: /mnt/c/Users/Hp/Documents/GitHub/LINUX-FULL-ENTERPRISE-PROJECTS/lab-08-cron-automation/backups/backup_2026-03-17_23-06-32.tar.gz
+[Tue Mar 17 23:06:32 WAT 2026] Backup job completed.
+----------------------------------------
+[Tue Mar 17 23:10:40 WAT 2026] Starting backup...
+[Tue Mar 17 23:10:40 WAT 2026] Backup successful: /mnt/c/Users/Hp/Documents/GitHub/LINUX-FULL-ENTERPRISE-PROJECTS/lab-08-cron-automation/backups/backup_2026-03-17_23-10-40.tar.gz
+[Tue Mar 17 23:10:40 WAT 2026] Backup job completed.
+----------------------------------------
+[Tue Mar 17 23:16:55 WAT 2026] Starting backup...
+[Tue Mar 17 23:16:55 WAT 2026] Backup successful: /mnt/c/Users/Hp/Documents/GitHub/LINUX-FULL-ENTERPRISE-PROJECTS/lab-08-cron-automation/backups/backup_2026-03-17_23-16-55.tar.gz
+[Tue Mar 17 23:16:55 WAT 2026] Backup job completed.
+----------------------------------------
